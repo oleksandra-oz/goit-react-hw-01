@@ -1,5 +1,5 @@
 import React from 'react';
-import userData from "./userData.json";
+
 
 const Profile = ({name, tag, location, avatar, stats: {followers, views, likes}}) => {
     return (
