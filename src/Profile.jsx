@@ -1,31 +1,31 @@
 import React from 'react';
 import userData from "./userData.json";
 
-const Profile = () => {
+const Profile = ({name, tag, location, avatar, stats: {followers, views, likes}}) => {
     return (
         <div>
             <div>
                 <img
-                    src={userData.avatar}
+                    src={avatar}
                     alt="User avatar"
                 />
-                <p>{userData.name}</p>
-                <p>@{userData.tag}</p>
-                <p>{userData.location}</p>
+                <p>{name}</p>
+                <p>@{tag}</p>
+                <p>{location}</p>
             </div>
 
             <ul>
                 <li>
                     <span>Followers</span>
-                    <span>{userData.stats.followers}</span>
+                    <span>{followers}</span>
                 </li>
                 <li>
                     <span>Views</span>
-                    <span>{userData.stats.views}</span>
+                    <span>{views}</span>
                 </li>
                 <li>
                     <span>Likes</span>
-                    <span>{userData.stats.likes}</span>
+                    <span>{likes}</span>
                 </li>
             </ul>
         </div>
