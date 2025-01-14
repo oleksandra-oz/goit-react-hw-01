@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Profile = ({name, tag, location, avatar, stats: {followers, views, likes}}) => {
     return (
         <div>
