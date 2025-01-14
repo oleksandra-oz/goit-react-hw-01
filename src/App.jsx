@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import './App.css'
-import './Profile.jsx'
+import Profile from './Profile.jsx'
 import userData from "./userData.json";
 
-function App() {
-  const [count, setCount] = useState(0)
   
 const App = () => {
   return (
@@ -21,7 +18,4 @@ const App = () => {
   };
   
 
-
-}
-
-export default App
+export default App;
