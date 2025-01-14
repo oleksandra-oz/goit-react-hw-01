@@ -6,7 +6,7 @@ const Profile = () => {
         <div>
             <div>
                 <img
-                    src="{userData.avatar}"
+                    src={userData.avatar}
                     alt="User avatar"
                 />
                 <p>{userData.name}</p>
