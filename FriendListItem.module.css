@@ -1,0 +1,17 @@
+.friendItem {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.friendStatus {
+  font-size: 12px;
+}
+
+.isOnline {
+  color: rgb(30, 127, 30);
+}
+
+.isOffline {
+  color: rgb(244, 7, 54);
+}
