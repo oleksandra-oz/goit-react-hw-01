@@ -2,7 +2,7 @@ import './App.css'
 import Profile from './Profile.jsx'
 import userData from "../userData.json";
 import friends from "../friends.json";
-import FriendList from '../FriendList.jsx';
+import FriendList from './FriendList.jsx';
 import TransactionHistory from './TransactionHistory.jsx';
 import transactions from "../transactions.json"
 
