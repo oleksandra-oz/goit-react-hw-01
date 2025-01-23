@@ -1,4 +1,4 @@
-import './App.css'
+
 import Profile from './Profile.jsx'
 import userData from "../userData.json";
 import friends from "../friends.json";
